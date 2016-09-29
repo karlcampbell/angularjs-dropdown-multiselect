@@ -365,7 +365,6 @@ directiveModule.directive('ngDropdownMultiselect', ['$filter', '$document', '$co
 					}
 				}
 				if (fireSelectionChange) {
-				  console.log('hi');
 					$scope.externalEvents.onSelectionChanged();
 				}
 				$scope.selectedGroup = null;
